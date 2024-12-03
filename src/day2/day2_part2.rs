@@ -22,7 +22,7 @@ fn check_safe(report: Vec<i32>) -> bool {
         }
     }
 
-    return true;
+    true
 }
 
 fn brute_force_safe_check(report: Vec<i32>) -> bool {
@@ -44,6 +44,7 @@ fn brute_force_safe_check(report: Vec<i32>) -> bool {
             return true;
         }
     }
+
     false
 }
 
@@ -62,8 +63,6 @@ fn main() -> io::Result<()> {
 
         reports.push(nums);
     }
-
-    println!("{}", reports.len());
 
     let mut safe_reports: i32 = 0;
 
