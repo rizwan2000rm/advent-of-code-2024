@@ -20,7 +20,5 @@ fn main() -> io::Result<()> {
         }
     }
 
-    println!("{}", uncorrupted_total);
-
     Ok(())
 }
