@@ -1,5 +1,4 @@
 extern crate regex;
-
 use regex::Regex;
 use std::fs::File;
 use std::io::{self, BufRead, BufReader};
